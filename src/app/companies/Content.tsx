@@ -5,7 +5,6 @@ import { type Company } from "./types";
 
 const sortByWorth = (a: Company, b: Company) => { return b.worth - a.worth }
 
-export default function TableCompany();
 
 export const Content = () => {
   const [companies, setCompanies] = useState<Company[]>([]); // [Company] dane firmy
@@ -17,8 +16,6 @@ export const Content = () => {
 interface TableCompany {
     companies: Company[];
 }
-
-
 
 
 //1. wyswietlic firmy w tabeli 
@@ -123,11 +120,19 @@ const Table: React.FC = () => {
 
     const sortedCompanies = sortCompanies(sortByWorth)
 
+
+
+
     // 3.  dodać filtr roku urodzenia właściciela - starszy niż... jako input text - filtrowane dane do useMemo
   const filteredCompanies = useMemo(() => {
-    if(!age){
-        return [...companies]
-    }
+    if(!age) return [...companies];
+        return companies.filter((company) =>
+            company.owners.some((owner) => {
+                const birthYear = new Date(owner.dateOfBirth).getFullYear();
+                return birthYear < parseInt(age);
+            })
+        
+        );
     return companies.filter((company) => true);
   }, [companies, age]);
 
@@ -155,6 +160,7 @@ const Table: React.FC = () => {
 
   return (
     <div>
+        <label htmlFor="age"> Filter by age:</label>
       <input
         type="number"
         value={age || ""}
@@ -177,3 +183,9 @@ const Table: React.FC = () => {
     </div>
   );
 };
+
+export default TableCompany();
+function TableCompany() {
+    throw new Error("Function not implemented.");
+}
+
