@@ -1,10 +1,6 @@
 "use client";
-
 import { useEffect, useMemo, useState } from "react";
 import { type Company } from "./types";
-
-const sortByWorth = (a: Company, b: Company) => { return b.worth - a.worth }
-
 
 export const Content = () => {
   const [companies, setCompanies] = useState<Company[]>([]); // [Company] dane firmy
@@ -16,7 +12,6 @@ export const Content = () => {
 interface TableCompany {
     companies: Company[];
 }
-
 
 //1. wyswietlic firmy w tabeli 
 const TableCompany: React.FC<TableCompany> = ({companies}) => {
@@ -32,7 +27,6 @@ const TableCompany: React.FC<TableCompany> = ({companies}) => {
                     <td>firstname</td>
                     <td>surname</td>
                     <td>dateOfBirth</td>
-
                 </tr>
             </thead>
             <tbody>
@@ -99,47 +93,18 @@ const Table: React.FC = () => {
             ]
         },
     ]
-    
-    
+
     return (
         <div>
             <h2>Companies table</h2>
             <TableCompany companies={companies} />
         </div>
     )
-
 }
-
-
-
-// sort companies by worth
-  const sortCompanies = (sortFn: (a: Company, b: Company) => number) => {
-        return companies.sort(sortFn)
-
-    }
-
-    const sortedCompanies = sortCompanies(sortByWorth)
-
-
-
-
-    // 3.  dodać filtr roku urodzenia właściciela - starszy niż... jako input text - filtrowane dane do useMemo
-  const filteredCompanies = useMemo(() => {
-    if(!age) return [...companies];
-        return companies.filter((company) =>
-            company.owners.some((owner) => {
-                const birthYear = new Date(owner.dateOfBirth).getFullYear();
-                return birthYear < parseInt(age);
-            })
-        
-        );
-    return companies.filter((company) => true);
-  }, [companies, age]);
-
 
 //   2.           dodac state pending, error i pobieranie w useEffect do useState
 // Pobieranie danych firmy 
-  useEffect(() => {
+useEffect(() => {
     const run = async () => {
       setPending(true);
       try {
@@ -158,8 +123,43 @@ const Table: React.FC = () => {
     run();
   }, []);
 
+//  5. ** napisz funkcje ktora zwróci funkcje,mapującą na podstawie parametru - nie zwraca firmy, ktorych wartosc jest wyzsza od podanego parametru  
+
+  const filterByValue = (value: number) => {
+    return (company: Company) => company.worth > value;
+  }
+
+// sort companies by worth
+  const sortCompanies = (sortFn: (a: Company, b: Company) => number) => {
+        return companies.sort(sortFn)
+    }
+
+// 3.  dodać filtr roku urodzenia właściciela - starszy niż... jako input text - filtrowane dane do useMemo
+  const filteredCompanies = useMemo(() => {
+    if(!age) return [...companies];
+        return companies.filter((company) =>
+            company.owners.some((owner) => {
+                const birthYear = new Date(owner.dateOfBirth).getFullYear();
+                return birthYear < parseInt(age);
+            })
+        );
+    return companies.filter((company) => true);
+  }, [companies, age]);
+
+//4. * sortowanie po wartosności, a takze funkcje ktora zwróci nowa tablice danych,
+    const sortedCompanies = useMemo(() => {
+        return [...filteredCompanies].sort(sortByWorth);
+    }, [filteredCompanies]);
+
+ //   
+  const handleAgeChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setAge(Number(event.target.value) || null);
+  }
+  const sortByWorth = (a: Company, b: Company) => { return b.worth - a.worth }
+
   return (
     <div>
+        <h1>Companies</h1>
         <label htmlFor="age"> Filter by age:</label>
       <input
         type="number"
