@@ -1,0 +1,903 @@
+[
+    {
+      "id": "a87bdc7f-7241-4ec3-8c3e-84aeb49577c1",
+      "companyName": "ABC Corporation",
+      "worth": 1000000,
+      "madeAt": "2022-01-01",
+      "owners": [
+        {
+          "firstname": "John",
+          "surname": "Doe",
+          "dateOfBirth": "1980-05-15"
+        },
+        {
+          "firstname": "Jane",
+          "surname": "Doe",
+          "dateOfBirth": "1982-08-21"
+        }
+      ]
+    },
+    {
+      "id": "c8f89e9a-5c03-4c56-b609-ea6e8e1812a5",
+      "companyName": "XYZ Industries",
+      "worth": 500000,
+      "madeAt": "2021-11-10",
+      "owners": [
+        {
+          "firstname": "Michael",
+          "surname": "Smith",
+          "dateOfBirth": "1975-12-03"
+        },
+        {
+          "firstname": "Emily",
+          "surname": "Johnson",
+          "dateOfBirth": "1979-09-18"
+        }
+      ]
+    },
+    {
+      "id": "6d5c6a7b-8e32-494d-a791-ff65d96e7d4e",
+      "companyName": "Tech Innovations Ltd.",
+      "worth": 750000,
+      "madeAt": "2023-05-20",
+      "owners": [
+        {
+          "firstname": "David",
+          "surname": "Brown",
+          "dateOfBirth": "1983-10-25"
+        },
+        {
+          "firstname": "Sophia",
+          "surname": "Clark",
+          "dateOfBirth": "1985-04-12"
+        }
+      ]
+    },
+    {
+      "id": "54a1e6c0-3eb3-4e96-9e29-0c50222a90e9",
+      "companyName": "Global Logistics Inc.",
+      "worth": 1200000,
+      "madeAt": "2020-09-15",
+      "owners": [
+        {
+          "firstname": "Robert",
+          "surname": "Taylor",
+          "dateOfBirth": "1978-08-30"
+        },
+        {
+          "firstname": "Isabella",
+          "surname": "Miller",
+          "dateOfBirth": "1981-06-05"
+        }
+      ]
+    },
+    {
+      "id": "b1b855c3-6f87-4f43-8edf-7eab7ee905bb",
+      "companyName": "Innovative Solutions LLC",
+      "worth": 900000,
+      "madeAt": "2024-02-28",
+      "owners": [
+        {
+          "firstname": "James",
+          "surname": "Wilson",
+          "dateOfBirth": "1982-03-17"
+        },
+        {
+          "firstname": "Olivia",
+          "surname": "Anderson",
+          "dateOfBirth": "1984-07-22"
+        }
+      ]
+    },
+    {
+      "id": "f9c32dc9-85ad-4d1e-bb89-bae8249b61fd",
+      "companyName": "Green Energy Solutions Inc.",
+      "worth": 850000,
+      "madeAt": "2023-08-12",
+      "owners": [
+        {
+          "firstname": "William",
+          "surname": "Moore",
+          "dateOfBirth": "1979-11-28"
+        },
+        {
+          "firstname": "Ava",
+          "surname": "Garcia",
+          "dateOfBirth": "1983-01-14"
+        }
+      ]
+    },
+    {
+      "id": "0cfdaa15-0fe8-41ed-b6d5-d1a7a0cbf71f",
+      "companyName": "Sunset Enterprises",
+      "worth": 650000,
+      "madeAt": "2023-12-05",
+      "owners": [
+        {
+          "firstname": "Christopher",
+          "surname": "Davis",
+          "dateOfBirth": "1984-09-30"
+        },
+        {
+          "firstname": "Sophie",
+          "surname": "White",
+          "dateOfBirth": "1986-02-18"
+        }
+      ]
+    },
+    {
+      "id": "3b3bcbe6-4791-4460-81e1-0c3b52db3cd0",
+      "companyName": "Pioneer Solutions",
+      "worth": 800000,
+      "madeAt": "2022-06-20",
+      "owners": [
+        {
+          "firstname": "Daniel",
+          "surname": "Martinez",
+          "dateOfBirth": "1977-07-12"
+        },
+        {
+          "firstname": "Emma",
+          "surname": "Thomas",
+          "dateOfBirth": "1980-03-25"
+        }
+      ]
+    },
+    {
+      "id": "9a1f7515-7ec5-4d9d-8b57-788b6df05f2d",
+      "companyName": "Oceanic Technologies",
+      "worth": 1100000,
+      "madeAt": "2021-03-17",
+      "owners": [
+        {
+          "firstname": "Matthew",
+          "surname": "Jones",
+          "dateOfBirth": "1981-01-05"
+        },
+        {
+          "firstname": "Lily",
+          "surname": "Brown",
+          "dateOfBirth": "1983-05-20"
+        }
+      ]
+    },
+    {
+      "id": "7e62054f-2496-40d1-85c2-24d0d1e3b20d",
+      "companyName": "Quantum Dynamics Inc.",
+      "worth": 950000,
+      "madeAt": "2020-08-08",
+      "owners": [
+        {
+          "firstname": "Andrew",
+          "surname": "Wilson",
+          "dateOfBirth": "1976-12-10"
+        },
+        {
+          "firstname": "Grace",
+          "surname": "Taylor",
+          "dateOfBirth": "1979-04-15"
+        }
+      ]
+    },
+    {
+      "id": "1fc44c10-24a9-41bb-a99e-232123937ec4",
+      "companyName": "EcoTech Solutions",
+      "worth": 600000,
+      "madeAt": "2024-01-30",
+      "owners": [
+        {
+          "firstname": "Nicholas",
+          "surname": "Harris",
+          "dateOfBirth": "1982-08-07"
+        },
+        {
+          "firstname": "Chloe",
+          "surname": "King",
+          "dateOfBirth": "1985-11-12"
+        }
+      ]
+    },
+    {
+      "id": "b2aee18b-8967-4b36-85e0-3522d10f2014",
+      "companyName": "Visionary Technologies",
+      "worth": 700000,
+      "madeAt": "2023-04-25",
+      "owners": [
+        {
+          "firstname": "Samuel",
+          "surname": "Lewis",
+          "dateOfBirth": "1979-03-22"
+        },
+        {
+          "firstname": "Sophia",
+          "surname": "Allen",
+          "dateOfBirth": "1981-06-18"
+        }
+      ]
+    },
+    {
+      "id": "29a18b69-874b-4c82-ba5c-8a99d94e8915",
+      "companyName": "Data Systems Solutions",
+      "worth": 850000,
+      "madeAt": "2022-09-05",
+      "owners": [
+        {
+          "firstname": "William",
+          "surname": "Roberts",
+          "dateOfBirth": "1980-02-15"
+        },
+        {
+          "firstname": "Amelia",
+          "surname": "Johnson",
+          "dateOfBirth": "1983-07-28"
+        }
+      ]
+    },
+    {
+      "id": "536c5975-5c16-4cc2-a8a0-d7f8b5f7899e",
+      "companyName": "Skyline Innovations",
+      "worth": 800000,
+      "madeAt": "2021-07-11",
+      "owners": [
+        {
+          "firstname": "David",
+          "surname": "White",
+          "dateOfBirth": "1977-09-18"
+        },
+        {
+          "firstname": "Mia",
+          "surname": "Martinez",
+          "dateOfBirth": "1980-12-23"
+        }
+      ]
+    },
+    {
+      "id": "2e10a4d5-3832-4532-97a3-518f59a8a1e1",
+      "companyName": "Future Innovations Inc.",
+      "worth": 1000000,
+      "madeAt": "2020-12-20",
+      "owners": [
+        {
+          "firstname": "Ethan",
+          "surname": "Hall",
+          "dateOfBirth": "1979-05-08"
+        },
+        {
+          "firstname": "Grace",
+          "surname": "Davis",
+          "dateOfBirth": "1982-10-11"
+        }
+      ]
+    },
+    {
+      "id": "ddcecf51-94e5-4767-981b-70069bcefa2f",
+      "companyName": "TechGenius Solutions",
+      "worth": 950000,
+      "madeAt": "2023-10-30",
+      "owners": [
+        {
+          "firstname": "Alexander",
+          "surname": "Garcia",
+          "dateOfBirth": "1980-07-20"
+        },
+        {
+          "firstname": "Charlotte",
+          "surname": "Hernandez",
+          "dateOfBirth": "1983-12-03"
+        }
+      ]
+    },
+    {
+      "id": "d8965d4c-432b-4709-a372-f5d2d0f6e775",
+      "companyName": "Global Vision Inc.",
+      "worth": 900000,
+      "madeAt": "2022-05-15",
+      "owners": [
+        {
+          "firstname": "Benjamin",
+          "surname": "Young",
+          "dateOfBirth": "1978-12-10"
+        },
+        {
+          "firstname": "Lillian",
+          "surname": "Scott",
+          "dateOfBirth": "1981-04-25"
+        }
+      ]
+    },
+    {
+      "id": "a4517a3d-73f6-45d2-a58c-5153dd5688a1",
+      "companyName": "Innovative Creations Ltd.",
+      "worth": 750000,
+      "madeAt": "2021-02-18",
+      "owners": [
+        {
+          "firstname": "Joseph",
+          "surname": "Lopez",
+          "dateOfBirth": "1983-01-22"
+        },
+        {
+          "firstname": "Samantha",
+          "surname": "Adams",
+          "dateOfBirth": "1985-06-17"
+        }
+      ]
+    },
+    {
+      "id": "8ae30da1-25ae-4a09-8727-70572c280eb3",
+      "companyName": "Prime Innovations Inc.",
+      "worth": 1100000,
+      "madeAt": "2020-10-05",
+      "owners": [
+        {
+          "firstname": "Daniel",
+          "surname": "Perez",
+          "dateOfBirth": "1979-08-12"
+        },
+        {
+          "firstname": "Hannah",
+          "surname": "Cook",
+          "dateOfBirth": "1982-03-27"
+        }
+      ]
+    },
+    {
+      "id": "f48ccad9-5f8c-43e5-8be3-631381f5de2c",
+      "companyName": "Alpha Technologies",
+      "worth": 850000,
+      "madeAt": "2024-03-25",
+      "owners": [
+        {
+          "firstname": "David",
+          "surname": "Gonzalez",
+          "dateOfBirth": "1981-04-08"
+        },
+        {
+          "firstname": "Avery",
+          "surname": "Flores",
+          "dateOfBirth": "1984-09-13"
+        }
+      ]
+    },
+    {
+      "id": "4c54707f-81d9-45da-8d18-c21745707aa5",
+      "companyName": "Dynamic Solutions LLC",
+      "worth": 800000,
+      "madeAt": "2023-01-12",
+      "owners": [
+        {
+          "firstname": "Michael",
+          "surname": "Mitchell",
+          "dateOfBirth": "1978-11-05"
+        },
+        {
+          "firstname": "Aria",
+          "surname": "Walker",
+          "dateOfBirth": "1982-06-20"
+        }
+      ]
+    },
+    {
+      "id": "d08dd5a6-fa6f-4f2a-b143-800f1eb4842b",
+      "companyName": "Innovative Systems Ltd.",
+      "worth": 700000,
+      "madeAt": "2022-08-08",
+      "owners": [
+        {
+          "firstname": "Jason",
+          "surname": "Parker",
+          "dateOfBirth": "1977-10-15"
+        },
+        {
+          "firstname": "Ella",
+          "surname": "Robinson",
+          "dateOfBirth": "1980-02-28"
+        }
+      ]
+    },
+    {
+      "id": "c390bfb7-f994-4e45-bec2-5b5ab2c39efb",
+      "companyName": "United Innovations Inc.",
+      "worth": 1000000,
+      "madeAt": "2021-04-20",
+      "owners": [
+        {
+          "firstname": "Jacob",
+          "surname": "Evans",
+          "dateOfBirth": "1982-12-18"
+        },
+        {
+          "firstname": "Mia",
+          "surname": "Hernandez",
+          "dateOfBirth": "1985-05-23"
+        }
+      ]
+    },
+    {
+      "id": "9fb378a6-aa56-4e6e-9334-bf0d4b91d92e",
+      "companyName": "Blue Sky Technologies",
+      "worth": 950000,
+      "madeAt": "2020-05-07",
+      "owners": [
+        {
+          "firstname": "Elijah",
+          "surname": "Lewis",
+          "dateOfBirth": "1979-09-02"
+        },
+        {
+          "firstname": "Scarlett",
+          "surname": "Lee",
+          "dateOfBirth": "1982-02-07"
+        }
+      ]
+    },
+    {
+      "id": "f1d2c063-91a5-4978-b04b-d299ac1c0372",
+      "companyName": "Sunrise Innovations",
+      "worth": 900000,
+      "madeAt": "2024-04-01",
+      "owners": [
+        {
+          "firstname": "Nathan",
+          "surname": "Perez",
+          "dateOfBirth": "1980-06-10"
+        },
+        {
+          "firstname": "Madison",
+          "surname": "Gonzalez",
+          "dateOfBirth": "1983-11-15"
+        }
+      ]
+    },
+    {
+      "id": "5fda8e99-bc58-4d46-9964-f7a3bfc8c2f4",
+      "companyName": "Dynamic Solutions Inc.",
+      "worth": 750000,
+      "madeAt": "2023-03-25",
+      "owners": [
+        {
+          "firstname": "James",
+          "surname": "Hernandez",
+          "dateOfBirth": "1981-07-08"
+        },
+        {
+          "firstname": "Elizabeth",
+          "surname": "Stewart",
+          "dateOfBirth": "1984-12-13"
+        }
+      ]
+    },
+    {
+      "id": "ab2a5427-d2c2-4642-ba3d-1d22536c0a76",
+      "companyName": "Eco Solutions Ltd.",
+      "worth": 700000,
+      "madeAt": "2022-10-20",
+      "owners": [
+        {
+          "firstname": "Daniel",
+          "surname": "Parker",
+          "dateOfBirth": "1979-05-25"
+        },
+        {
+          "firstname": "Hannah",
+          "surname": "Thompson",
+          "dateOfBirth": "1982-10-30"
+        }
+      ]
+    },
+    {
+      "id": "a4748bf1-8c6b-446f-9a86-49d12ad9f735",
+      "companyName": "Innovative Tech Solutions",
+      "worth": 950000,
+      "madeAt": "2021-08-15",
+      "owners": [
+        {
+          "firstname": "Jackson",
+          "surname": "Morris",
+          "dateOfBirth": "1983-03-17"
+        },
+        {
+          "firstname": "Victoria",
+          "surname": "Baker",
+          "dateOfBirth": "1986-06-22"
+        }
+      ]
+    },
+    {
+      "id": "19f1eab9-8f6b-49ad-b9c1-9a540f1de086",
+      "companyName": "Alpha Solutions Inc.",
+      "worth": 850000,
+      "madeAt": "2020-07-10",
+      "owners": [
+        {
+          "firstname": "Ethan",
+          "surname": "Wood",
+          "dateOfBirth": "1978-11-05"
+        },
+        {
+          "firstname": "Chloe",
+          "surname": "Martin",
+          "dateOfBirth": "1981-04-10"
+        }
+      ]
+    },
+    {
+      "id": "cb6a17d3-32fc-4b80-8441-6e7bc978e7d2",
+      "companyName": "Bright Future Innovations",
+      "worth": 800000,
+      "madeAt": "2024-01-05",
+      "owners": [
+        {
+          "firstname": "Alexander",
+          "surname": "Young",
+          "dateOfBirth": "1982-02-18"
+        },
+        {
+          "firstname": "Ella",
+          "surname": "Martinez",
+          "dateOfBirth": "1984-07-23"
+        }
+      ]
+    },
+    {
+      "id": "6c8ae710-d634-45ff-b40d-7070f5e89648",
+      "companyName": "Pioneer Innovations Inc.",
+      "worth": 1000000,
+      "madeAt": "2023-05-01",
+      "owners": [
+        {
+          "firstname": "William",
+          "surname": "Allen",
+          "dateOfBirth": "1979-09-20"
+        },
+        {
+          "firstname": "Ava",
+          "surname": "Lee",
+          "dateOfBirth": "1982-12-25"
+        }
+      ]
+    },
+    {
+      "id": "9e70e7da-f8d2-4ab2-a6de-17ae7c3c63fd",
+      "companyName": "Sunrise Technologies",
+      "worth": 950000,
+      "madeAt": "2022-04-15",
+      "owners": [
+        {
+          "firstname": "Matthew",
+          "surname": "Garcia",
+          "dateOfBirth": "1980-10-10"
+        },
+        {
+          "firstname": "Natalie",
+          "surname": "Hernandez",
+          "dateOfBirth": "1983-03-15"
+        }
+      ]
+    },
+    {
+      "id": "a20b0203-643d-4f8f-bb94-d35290dc1713",
+      "companyName": "Visionary Solutions Ltd.",
+      "worth": 900000,
+      "madeAt": "2021-11-20",
+      "owners": [
+        {
+          "firstname": "David",
+          "surname": "Perez",
+          "dateOfBirth": "1978-08-05"
+        },
+        {
+          "firstname": "Sophia",
+          "surname": "Robinson",
+          "dateOfBirth": "1981-01-10"
+        }
+      ]
+    },
+    {
+      "id": "d12380c1-d2b5-4f8f-91fc-7751f14b39db",
+      "companyName": "Dynamic Innovations LLC",
+      "worth": 750000,
+      "madeAt": "2020-09-25",
+      "owners": [
+        {
+          "firstname": "James",
+          "surname": "Hernandez",
+          "dateOfBirth": "1983-02-18"
+        },
+        {
+          "firstname": "Emily",
+          "surname": "Stewart",
+          "dateOfBirth": "1985-07-23"
+        }
+      ]
+    },
+    {
+      "id": "7ae8f1d4-6a57-40a6-bc2d-8ee3afef084d",
+      "companyName": "Bright Future Solutions",
+      "worth": 700000,
+      "madeAt": "2023-02-10",
+      "owners": [
+        {
+          "firstname": "Michael",
+          "surname": "Miller",
+          "dateOfBirth": "1979-07-15"
+        },
+        {
+          "firstname": "Emma",
+          "surname": "Wilson",
+          "dateOfBirth": "1982-12-20"
+        }
+      ]
+    },
+    {
+      "id": "90b74a1b-e5f0-4146-b201-6ed63a7743d2",
+      "companyName": "Innovation Dynamics",
+      "worth": 1000000,
+      "madeAt": "2022-12-08",
+      "owners": [
+        {
+          "firstname": "Daniel",
+          "surname": "Brown",
+          "dateOfBirth": "1978-09-30"
+        },
+        {
+          "firstname": "Ella",
+          "surname": "Davis",
+          "dateOfBirth": "1981-03-15"
+        }
+      ]
+    },
+    {
+      "id": "40e94e91-7e1d-4031-8b8c-0d7a5b366dc1",
+      "companyName": "TechVision Inc.",
+      "worth": 950000,
+      "madeAt": "2021-05-28",
+      "owners": [
+        {
+          "firstname": "James",
+          "surname": "Gonzalez",
+          "dateOfBirth": "1980-11-10"
+        },
+        {
+          "firstname": "Avery",
+          "surname": "Collins",
+          "dateOfBirth": "1983-04-15"
+        }
+      ]
+    },
+    {
+      "id": "daea92c0-0469-4a70-bc0a-715bf79b9ee9",
+      "companyName": "Innovative Solutions Ltd.",
+      "worth": 900000,
+      "madeAt": "2020-08-20",
+      "owners": [
+        {
+          "firstname": "Michael",
+          "surname": "Walker",
+          "dateOfBirth": "1979-10-25"
+        },
+        {
+          "firstname": "Isabella",
+          "surname": "Baker",
+          "dateOfBirth": "1982-05-30"
+        }
+      ]
+    },
+    {
+      "id": "f91ff8cf-b1d9-40ff-bf87-d0342b152b27",
+      "companyName": "FutureTech Innovations",
+      "worth": 750000,
+      "madeAt": "2023-06-15",
+      "owners": [
+        {
+          "firstname": "Ethan",
+          "surname": "Wright",
+          "dateOfBirth": "1981-01-20"
+        },
+        {
+          "firstname": "Ava",
+          "surname": "Turner",
+          "dateOfBirth": "1984-06-25"
+        }
+      ]
+    },
+    {
+      "id": "2b640f2b-70f7-41ec-9504-c2ff63a2a8c3",
+      "companyName": "Innovative Technologies Ltd.",
+      "worth": 700000,
+      "madeAt": "2022-03-05",
+      "owners": [
+        {
+          "firstname": "William",
+          "surname": "Perez",
+          "dateOfBirth": "1978-07-10"
+        },
+        {
+          "firstname": "Sophia",
+          "surname": "Carter",
+          "dateOfBirth": "1981-12-15"
+        }
+      ]
+    },
+    {
+      "id": "d7d84fc9-5264-4958-bf88-ae221d77e31e",
+      "companyName": "Dynamic Innovations Ltd.",
+      "worth": 1000000,
+      "madeAt": "2021-12-30",
+      "owners": [
+        {
+          "firstname": "Alexander",
+          "surname": "Young",
+          "dateOfBirth": "1979-05-15"
+        },
+        {
+          "firstname": "Emma",
+          "surname": "Garcia",
+          "dateOfBirth": "1982-10-20"
+        }
+      ]
+    },
+    {
+      "id": "85bc543a-73b5-465f-aa3b-856d30fcd5f8",
+      "companyName": "Tech Innovations Inc.",
+      "worth": 950000,
+      "madeAt": "2020-09-10",
+      "owners": [
+        {
+          "firstname": "James",
+          "surname": "Davis",
+          "dateOfBirth": "1977-11-25"
+        },
+        {
+          "firstname": "Mia",
+          "surname": "Wilson",
+          "dateOfBirth": "1980-04-30"
+        }
+      ]
+    },
+    {
+      "id": "7c418d50-63f4-4853-8b51-01e7da77b14a",
+      "companyName": "Innovative Solutions Inc.",
+      "worth": 900000,
+      "madeAt": "2023-07-20",
+      "owners": [
+        {
+          "firstname": "Daniel",
+          "surname": "Smith",
+          "dateOfBirth": "1981-03-10"
+        },
+        {
+          "firstname": "Emily",
+          "surname": "Brown",
+          "dateOfBirth": "1984-08-15"
+        }
+      ]
+    },
+    {
+      "id": "3a1c82a1-cfc5-46fd-86fd-e004cbdb8ba4",
+      "companyName": "Global Innovations Ltd.",
+      "worth": 850000,
+      "madeAt": "2022-01-25",
+      "owners": [
+        {
+          "firstname": "Matthew",
+          "surname": "Johnson",
+          "dateOfBirth": "1980-06-20"
+        },
+        {
+          "firstname": "Lily",
+          "surname": "Taylor",
+          "dateOfBirth": "1983-11-25"
+        }
+      ]
+    },
+    {
+      "id": "8d026d5c-5b2d-4a9a-a37e-8a63274b1f51",
+      "companyName": "Innovative Solutions Inc.",
+      "worth": 750000,
+      "madeAt": "2021-04-10",
+      "owners": [
+        {
+          "firstname": "Michael",
+          "surname": "Perez",
+          "dateOfBirth": "1978-08-05"
+        },
+        {
+          "firstname": "Isabella",
+          "surname": "Robinson",
+          "dateOfBirth": "1981-01-10"
+        }
+      ]
+    },
+    {
+      "id": "9de75a0e-1fa3-4820-b8e4-6aee7150e1d7",
+      "companyName": "Skyline Innovations Ltd.",
+      "worth": 1000000,
+      "madeAt": "2020-12-05",
+      "owners": [
+        {
+          "firstname": "William",
+          "surname": "Gonzalez",
+          "dateOfBirth": "1979-07-10"
+        },
+        {
+          "firstname": "Sophia",
+          "surname": "Collins",
+          "dateOfBirth": "1982-12-15"
+        }
+      ]
+    },
+    {
+      "id": "4fc9f5cb-6e10-4d05-b0ed-17cfdd8a9734",
+      "companyName": "Tech Solutions Ltd.",
+      "worth": 950000,
+      "madeAt": "2022-09-30",
+      "owners": [
+        {
+          "firstname": "James",
+          "surname": "Hernandez",
+          "dateOfBirth": "1981-02-20"
+        },
+        {
+          "firstname": "Mia",
+          "surname": "Turner",
+          "dateOfBirth": "1984-07-25"
+        }
+      ]
+    },
+    {
+      "id": "0c4e96a2-1f7c-4853-8d5e-0b8d4b1f274f",
+      "companyName": "Future Innovations Ltd.",
+      "worth": 900000,
+      "madeAt": "2021-05-15",
+      "owners": [
+        {
+          "firstname": "Daniel",
+          "surname": "Young",
+          "dateOfBirth": "1978-10-30"
+        },
+        {
+          "firstname": "Ella",
+          "surname": "Carter",
+          "dateOfBirth": "1981-03-05"
+        }
+      ]
+    },
+    {
+      "id": "a10b8b58-c3f2-41a0-9a64-e25a7572707f",
+      "companyName": "Skyline Solutions Inc.",
+      "worth": 750000,
+      "madeAt": "2020-10-10",
+      "owners": [
+        {
+          "firstname": "William",
+          "surname": "Parker",
+          "dateOfBirth": "1979-05-25"
+        },
+        {
+          "firstname": "Sophia",
+          "surname": "Thompson",
+          "dateOfBirth": "1982-10-30"
+        }
+      ]
+    },
+    {
+      "id": "e5aaf295-67f5-4964-bd52-6f44242d618e",
+      "companyName": "Bright Future Technologies",
+      "worth": 1000000,
+      "madeAt": "2023-08-05",
+      "owners": [
+        {
+          "firstname": "Daniel",
+          "surname": "Gonzalez",
+          "dateOfBirth": "1980-03-10"
+        },
+        {
+          "firstname": "Ella",
+          "surname": "Collins",
+          "dateOfBirth": "1983-08-15"
+        }
+      ]
+    }
+  ]
+  

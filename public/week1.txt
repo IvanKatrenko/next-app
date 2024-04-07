@@ -1,0 +1,24 @@
+
+
+
+- useState
+- useEffect
+- useMemo (posortowane)
+
+https://legacy.reactjs.org/docs/hooks-state.html
+https://legacy.reactjs.org/docs/hooks-effect.html
+https://legacy.reactjs.org/docs/hooks-rules.html
+https://legacy.reactjs.org/docs/hooks-custom.html
+
+ZADANIA
+1. wyswietlic firmy w tabeli 
+2. dodac state pending, error i pobieranie w useEffect do useState
+3. dodać filtr roku urodzenia właściciela - starszy niż... jako input text - filtrowane dane do useMemo
+4. * sortowanie: napisz osobną funkcje (jako osobna zmienna)
+    do sortowania po wartosći, a takze funkcje ktora zwróci nowa tablice danych,
+    przyjmując za argument funkcje sortującą
+5. ** napisz funkcje ktora zwróci funkcje,
+ mapującą na podstawie parametru - nie zwraca firmy,
+  ktorych wartosc jest wyzsza od podanego parametru 
+
+
