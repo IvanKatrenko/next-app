@@ -1,5 +1,8 @@
 import Image from "next/image";
-import { Content } from "./Content";
+import { Content } from "./Content"
+import { lusitana } from "../ui/fonts";
+import { AcmeLogo } from "../ui/acme-logo";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -9,6 +12,24 @@ export default function Home() {
           Get started by editing&nbsp;
           <code className="font-mono font-bold">src/app/page.tsx</code>
         </p>
+        {/* add fonts */}
+        <p className={`${lusitana.className} text-6xl font-bold`}></p>
+        <AcmeLogo />
+        {/* // add image */}
+        <Image
+            src="/hero-desktop.png"
+            width={1000}
+            height={760}
+            className="hidden md:block"
+            alt="Screenshots of the dashboard project showing desktop version"
+        />
+        <Image
+        src="/hero-mobile.png"
+        width={560}
+        height={620}
+        className="block md:hidden"
+        alt="Screenshot of the dashboard project showing mobile version"
+      />
         <Content />
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
