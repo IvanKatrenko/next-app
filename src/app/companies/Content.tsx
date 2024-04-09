@@ -6,8 +6,6 @@ import { type Company } from "./types";
 // Content component for the page
 const Content = () => {
  
-
-  
   // props for component TableCompany
 interface TableCompanyProps {
     companies: Company[];
@@ -62,7 +60,6 @@ const [error, setError] = useState<string>('');  // string | null błąd podcza
     //         <TableCompany companies={companies} />
     //     </div>
     // )
-
 
 //   2.           dodac state pending, error i pobieranie w useEffect do useState
 // Downloading company data
