@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Content } from "./Content"
-import { lusitana } from "../ui/fonts";
-import { AcmeLogo } from "../ui/acme-logo";
+import { lusitana } from "../../ui/fonts";
+import { AcmeLogo } from "../../ui/acme-logo";
 import Image from "next/image";
 
 export default function Home() {
