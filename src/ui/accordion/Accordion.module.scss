@@ -1,0 +1,12 @@
+.accordion {
+    background-color: gray;
+}
+
+.accordion_row {
+    background-color: darkgrey;
+    border: 1px solid black;
+
+    &__open {
+        background-color: red;
+    }
+}
