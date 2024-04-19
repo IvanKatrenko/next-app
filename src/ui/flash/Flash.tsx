@@ -1,5 +1,6 @@
 import clx from 'classnames';
 import styles from './Flash.module.scss';
+import React from 'react';
 
 export type FlashVariant = 'success' | 'danger' | 'warning' | 'info';
 
@@ -8,7 +9,7 @@ type FlashProps = {
   title?: string;
   message?: string;
   variant?: FlashVariant;
-  handleClose?: () => void;
+  handleClose?: () => void; // Added support for closing flash
 };
 
 export const Flash = ({
@@ -18,6 +19,13 @@ export const Flash = ({
   variant = 'info',
   handleClose,
 }: FlashProps) => {
+
+  const handleFlashClick = () => {
+    if (handleClose) {
+      handleClose(); //function call handleClose if it exists
+    }
+  }
+
   return (
     <div
       className={clx(
@@ -27,7 +35,11 @@ export const Flash = ({
         },
         className
       )}
+      onClick={handleFlashClick} // Add onClick event handler
     >
+      {title && <h1>{title}</h1>}
+      {message && <p>{message}</p>}
+      {handleClose && <button onClick={handleClose}>Close</button>}
       Flash Content
     </div>
   );
