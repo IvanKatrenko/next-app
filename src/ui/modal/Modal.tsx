@@ -2,6 +2,7 @@ import { createPortal } from 'react-dom';
 import clx from 'classnames';
 import styles from './Modal.module.scss';
 import { ClientPortal } from '../portal';
+import React from 'react';
 
 type ModalProps = {
   children: React.ReactNode;
@@ -10,6 +11,13 @@ type ModalProps = {
   title?: string;
   portalSelector?: string;
   handleClose?: () => void;
+};
+
+const ModalWrapper = ({ children, handleClose }: { children: React.ReactNode; handleClose?: () => void }) => {
+  return createPortal(
+    <div className={styles['modal__shadow']} onClick={handleClose}></div>,
+    document.body
+  );
 };
 
 export const Modal = ({
@@ -22,7 +30,21 @@ export const Modal = ({
 }: ModalProps) => {
   return (
     <ClientPortal show={isOpen} selector={portalSelector}>
-      <div className={clx(styles.modal, className)}>Modal Content</div>
+
+      <ModalWrapper handleClose={handleClose}>
+        <div className={clx(styles['modal__wrapper'])}>
+          <div className={styles['modal__box']}>
+            <div className={clx(styles['modal__content'], className)}>
+              {title && <h1 className={styles['modal__title']}>{title}</h1>}
+              {children}
+              {handleClose && <button 
+                className={styles['modal__close']}
+                onClick={handleClose}>X</button>}
+            </div>
+          </div>
+        </div>
+      </ModalWrapper>
+
     </ClientPortal>
   );
 };
