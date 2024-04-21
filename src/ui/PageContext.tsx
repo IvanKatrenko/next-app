@@ -3,6 +3,9 @@
 import { Modal, Flash, Accordion, AccordionRow } from '@/ui';
 import styles from './style.module.scss';
 import { useState } from 'react';
+import Notifications from '@/components/Notifications';
+import { NotificationsProvider } from '@/context/notificationsContext';
+import Header from '@/components/Header';
 
 export const PageContent = () => {
   const [accordionId, setAccordionId] = useState<string>('');
@@ -21,6 +24,13 @@ export const PageContent = () => {
 
   return (
     <div>
+
+      <NotificationsProvider>
+        <h1 className={styles.title}>Notifications</h1>
+        <p className={styles.description}>Notifications component</p>
+        <Notifications />
+      </NotificationsProvider>
+
       <section className={styles.section}>
         <h1>Flash</h1>
         <button onClick={openFlash}>Dodaj flash</button>
