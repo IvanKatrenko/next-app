@@ -15,3 +15,5 @@ return (
     </div>
   );
 };
+
+export default Notifications;
