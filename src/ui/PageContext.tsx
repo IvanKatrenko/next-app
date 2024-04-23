@@ -25,6 +25,9 @@ export const PageContent = () => {
   return (
     <div>
 
+      <Header />
+      
+
       <NotificationsProvider>
         <h1 className={styles.title}>Notifications</h1>
         <p className={styles.description}>Notifications component</p>
