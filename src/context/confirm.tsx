@@ -38,9 +38,7 @@ export function ConfirmProvider({children}) {
                 </div>
             )}
         </Confirm.Provider>
-
     )
-
 }
 
 export default Confirm;
