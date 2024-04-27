@@ -1,18 +1,18 @@
-'use client';
+"use client";
 
-import { Modal, Flash, Accordion, AccordionRow } from '@/ui';
-import styles from './style.module.scss';
-import { useState } from 'react';
-import Notifications from '@/components/Notifications';
-import { NotificationsProvider } from '@/context/notificationsContext';
-import Header from '@/components/Header';
+import { Modal, Flash, Accordion, AccordionRow } from "@/ui";
+import styles from "./style.module.scss";
+import { useState } from "react";
+import Notifications from "@/components/Notifications";
+import { NotificationsProvider } from "@/context/notificationsContext";
+import Header from "@/components/Header";
 
 export const PageContent = () => {
-  const [accordionId, setAccordionId] = useState<string>('');
+  const [accordionId, setAccordionId] = useState<string>("");
   const accordionClickHandler = (e: React.MouseEvent<HTMLButtonElement>) => {
     const btn = e.target as HTMLButtonElement;
     const id = btn.id;
-    setAccordionId(id && id !== accordionId ? id : '');
+    setAccordionId(id && id !== accordionId ? id : "");
   };
 
   const [flash, setFlash] = useState<boolean>(false);
@@ -24,9 +24,7 @@ export const PageContent = () => {
 
   return (
     <div>
-
       <Header />
-      
 
       <NotificationsProvider>
         <h1 className={styles.title}>Notifications</h1>
@@ -62,7 +60,7 @@ export const PageContent = () => {
           <AccordionRow
             id="a_1"
             title="Pierwszy tytuł"
-            isOpen={accordionId === 'a_1'}
+            isOpen={accordionId === "a_1"}
             handleClick={accordionClickHandler}
           >
             Treść numer jeden
@@ -70,15 +68,20 @@ export const PageContent = () => {
           <AccordionRow
             id="a_2"
             title="Drugi tytuł"
-            isOpen={accordionId === 'a_2'}
+            isOpen={accordionId === "a_2"}
             handleClick={accordionClickHandler}
           >
             Treść numer dwa
+            <button>Przycisk</button>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic
+            voluptatem ipsam cupiditate, corrupti animi quod ducimus tempora
+            nostrum illum pariatur provident numquam quasi. Optio accusamus quod
+            autem tempora unde delectus?
           </AccordionRow>
           <AccordionRow
             id="a_3"
             title="Trzeci tytuł"
-            isOpen={accordionId === 'a_3'}
+            isOpen={accordionId === "a_3"}
             handleClick={accordionClickHandler}
           >
             Treść numer trzy
