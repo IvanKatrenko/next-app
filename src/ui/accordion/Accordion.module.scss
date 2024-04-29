@@ -1,26 +1,24 @@
-.accordion {
-  border: 2px solid #777474;
-  margin-bottom: 15px;
-  width: 100%;
+.title {
+  margin: 0;
+  cursor: pointer;
+
+  &:hover {
+    color: #cba3e2;
+  }
 }
 
-.accordion_row {
-  cursor: pointer;
-  background-color: darkgrey;
-  border: 1px solid black;
-  display: block;
-  padding: 10px;
-  text-align: left;
-  width: 100%;
-  transition: background-color 0.3s ease;
+.arrow {
+  transition: transform 0.3s ease;
 
-  &__content {
-    display: none;
+  &.open {
+    transform: rotate(180deg);
   }
-  &__open {
-    background-color: red;
-    .accordion_row__content {
-      display: block;
+
+  &.accordion_row_arrow {
+    transition: transform 1s;
+
+    &:hover {
+      transform: scale(1.1);
     }
   }
 }
