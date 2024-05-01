@@ -1,8 +1,7 @@
 import clx from "classnames";
 import styles from "./Accordion.module.scss";
 import React, { useState } from "react";
-import Icon from "./chevron.svg";
-
+import Icon from "../icons/chevronDownIcon";
 type AccordionProps = {
   className?: string;
   children: React.ReactNode;
