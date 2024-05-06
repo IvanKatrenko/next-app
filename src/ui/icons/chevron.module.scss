@@ -1,7 +1,14 @@
-.open {
-  transform: rotate(180deg);
+.chevron {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  font-size: 16px;
+  line-height: 1em;
 }
 
-.accordion_row_arrow {
-  transition: transform 1s;
+.chevron {
+  transform: rotate(90deg);
+  transform-origin: 50% 50%;
+  transition: transform 0.2s ease-out;
 }
