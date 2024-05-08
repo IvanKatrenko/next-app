@@ -3,7 +3,7 @@ import styles from "./chevron.module.scss";
 import classNames from "classnames";
 
 interface ChevronProps {
-  className?: string; // Obsługa className jako props
+  className?: string;
 }
 
 export const IconChevron: React.FC<ChevronProps> = ({ className }) => {
