@@ -1,0 +1,6 @@
+.chevron {
+  display: inline-block;
+  transform: rotate(90deg);
+  transform-origin: 50% 50%;
+  transition: transform 0.2s ease-out;
+}
