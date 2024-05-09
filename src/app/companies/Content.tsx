@@ -52,7 +52,7 @@ const TableCompany: React.FC<TableCompanyProps> = ({companies}) => {
 const [companies, setCompanies] = useState<Company[]>([]); // [Company] 
 const [pending, setPending] = useState<boolean>(true); // boolean 
 const [age, setAge] = useState<number | null>(null);  // number | age owners
-const [error, setError] = useState<string>('');  // string | null błąd podczas pobierania danych
+const [error, setError] = useState<string>('');  // string | null błąd podczas pobierania danych
 
     // return (
     //     <div>
@@ -117,8 +117,6 @@ const filteredCompanies = useMemo(() => {
   setAge(value);
 };
 
-
-  
   const sortByWorth = (a: Company, b: Company) => { return b.worth - a.worth }
 
   return (

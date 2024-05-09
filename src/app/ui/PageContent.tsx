@@ -7,7 +7,7 @@ import { useState } from 'react';
 export const PageContent = () => {
   const [accordionId, setAccordionId] = useState<string>('');
   const accordionClickHandler = (e: React.MouseEvent<HTMLButtonElement>) => {
-    const btn = e.target as HTMLButtonElement;
+    const btn = e.currentTarget as HTMLButtonElement;
     const id = btn.id;
     setAccordionId(id && id !== accordionId ? id : '');
   };
@@ -21,7 +21,7 @@ export const PageContent = () => {
 
   return (
     <div>
-      <section className={styles.section}>
+      {/* <section className={styles.section}>
         <h1>Flash</h1>
         <button onClick={openFlash}>Dodaj flash</button>
         {flash ? (
@@ -40,7 +40,7 @@ export const PageContent = () => {
           <h3>Modal title</h3>
           <p>Jakaś treść</p>
         </Modal>
-      </section>
+      </section> */}
 
       <section className={styles.section}>
         <h1>Accordion</h1>
