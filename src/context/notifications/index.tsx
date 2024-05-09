@@ -1,1 +1,0 @@
-export {types.tsx} from './index';
