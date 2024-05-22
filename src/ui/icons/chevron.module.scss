@@ -1,0 +1,14 @@
+.chevron {
+  display: inline-block;
+  transform: rotate(90deg);
+  transform-origin: 50% 50%;
+  transition: transform 0.2s ease-out;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  color: black;
+}
