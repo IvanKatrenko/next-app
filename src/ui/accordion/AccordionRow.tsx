@@ -1,6 +1,6 @@
-import clx from 'classnames';
-import styles from './Accordion.module.scss';
-import { IconChevron } from '../icons';
+import clx from "classnames";
+import styles from "./Accordion.module.scss";
+import { IconChevron } from "../icons";
 
 type AccordionRowProps = {
   children: React.ReactNode;
@@ -32,6 +32,7 @@ export const AccordionRow = ({
       <button onClick={handleClick} id={id}>
         {title}
         <IconChevron className={styles.accordion_row__icon} />
+        <IconChevron className={styles.accordion__arrow} />
       </button>
 
       <div className={styles.accordion_row__content}>{children}</div>
